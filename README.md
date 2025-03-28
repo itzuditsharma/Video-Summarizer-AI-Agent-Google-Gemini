@@ -21,8 +21,8 @@ The **Multimodal AI Agent - Video Summarizer** is a Streamlit-based application 
 ## Installation
 ### 1. Clone the Repository
 ```bash
-$ git clone https://github.com/yourusername/video-summarizer-ai.git
-$ cd video-summarizer-ai
+$ git clone https://github.com/itzuditsharma/Video-Summarizer-AI-Agent-Google-Gemini.git
+$ cd Video-Summarizer-AI-Agent-Google-Gemini
 ```
 
 ### 2. Create and Activate Virtual Environment
@@ -45,7 +45,7 @@ GOOGLE_API_KEY=your_google_api_key
 
 ### 5. Run the Application
 ```bash
-$ streamlit run app.py
+$ streamlit run main.py
 ```
 
 ## Usage
@@ -57,7 +57,7 @@ $ streamlit run app.py
 ## File Structure
 ```
 video-summarizer-ai/
-│── app.py                # Streamlit application
+│── main.py                # Streamlit application
 │── requirements.txt      # Python dependencies
 │── .env                  # Environment variables (ignored in Git)
 │── README.md             # Project documentation
